@@ -1,0 +1,179 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.info {
+  padding-top: 800px;
+
+  height: 500px;
+  width: 1200px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+/* Navbar */
+.navbar {
+  background-color: #0b1229;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.sticky {
+  background-color: #0b1229;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand.container.info {
+  /* left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+  background: #0b1229;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+}
+
+/* Section Styling */
+.section {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Projects Section */
+.projects {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.project {
+  background-color: #f4f4f467;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 45%;
+}
+
+/* Contact Section */
+.contact-info {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 2rem;
+  margin: 0 15px;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn color */
+}
+
+/* Footer */
+footer {
+  background-color: #0b1229;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
